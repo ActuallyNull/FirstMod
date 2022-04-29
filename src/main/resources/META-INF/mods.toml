@@ -1,0 +1,28 @@
+
+modLoader="javafml" 
+loaderVersion="[40,)" 
+license="MIT"
+[[mods]] 
+modId="firstmod" 
+version="${file.jarVersion}" 
+displayName="My first mod!" 
+logoFile="examplemod.png" #optional
+credits="this is my first mod" #optional
+authors="null#9379" #optional
+description='''
+wowie a mod 
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.firstmod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[40,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.firstmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"

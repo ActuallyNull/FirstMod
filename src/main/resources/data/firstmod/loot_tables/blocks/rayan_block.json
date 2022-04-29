@@ -1,0 +1,18 @@
+{
+	"types": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1.0,
+			"entries": [
+			
+				{
+					"type": "minecraft:item",
+					"name": "firstmod:rayan_block"	
+				}
+			
+			]
+		
+		}
+	
+	]
+}
